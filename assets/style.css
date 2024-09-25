@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+}
+
+/* Style Header */
+header {
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: rgb(60, 60, 60);
+  border-width: 2px;
+  border-color: black;
+  border-style: inset;
+}
+
+.box {
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+  height: 400px;
+  border-width: 2px;
+  border-color: black;
+  border-style: inset;
+}
+
+.box-teachers {
+  float: left;
+  width: 100%;
+  padding: 50px;
+  height: 400px;
+  border-width: 2px;
+  border-color: black;
+  border-style: inset;
+}
+
+.box-teachers h3 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 60px;
+}
+
+.box-reviews {
+  padding: 10px;
+  float: left;
+  width: 30%;
+  margin-left: 3.33%;
+  border-width: 2px;
+  border-color: black;
+  border-style: inset;
+  border-radius: 30px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+footer {
+  font-size: 24px;
+  padding-top: 20px;
+  text-align: center;
+  color: rgb(60, 60, 60);
+  border-width: 2px;
+  border-color: black;
+  border-style: inset;
+}
+
+.footer h3 {
+  margin-top: 30px;
+}
